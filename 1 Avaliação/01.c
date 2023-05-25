@@ -9,7 +9,7 @@ int soma_recursiva(int soma, int i){
 
     soma += soma_recursiva(soma, i - 1); // soma vai receber a mesma mais o retorno (passo a nova soma, passo meu numero - 1)
     
-    soma += i; // somo o número atual a soma fin
+    soma += i; // somo o número atual a soma final
 
     return soma; // retorno soma ao qual vai ser somada na recursao
 }
