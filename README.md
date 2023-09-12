@@ -2,7 +2,7 @@
 
 - Algumas atividades feitas na linguagem C na disciplina de Estruturas de Dados.
 
-* Problemas Matemáticas Simples.
+* Problemas Matemáticos Simples.
 * Problemas com Matriz.
 * Problema do Troco mínimo.
 * Manipulando Struct.
