@@ -1,4 +1,4 @@
-/*No *removerPilha(No *pilha){
+*No *removerPilha(No *pilha){
     
     if(pilha == NULL){
         return NULL;
@@ -28,4 +28,4 @@ No *removerFila(No *fila){
     
     aux->inicio = fila->proximo;
     return fila->proximo;
-}*/
+}*
