@@ -30,7 +30,7 @@ No *inserirPilha(No *pilha, int valor){
 
         No *aux = pilha; // aux vai receber inicio da pilha
         novo->proximo = pilha; // proximo nó apos o novo vai ser o inicio da pilha
-	    novo->fim = pilha->fim; // novo fim vai receber pilha fim que foi o primeiro elemento adicionado
+	novo->fim = pilha->fim; // novo fim vai receber pilha fim que foi o primeiro elemento adicionado
 
         do{ 
 		    aux->inicio = novo; // aux que era o inicio da pilha vai receber novo elemento
@@ -50,14 +50,14 @@ No *inserirFila(No *fila, int valor){
 
 		novo->inicio = novo; // novo inicio vai receber novo elemento adicionado
 		novo->fim = novo; // novo fim vai receber novo elemento adicionado
-        novo->proximo = NULL; // proximo elemento a frente do novo vai receber NULL
+        	novo->proximo = NULL; // proximo elemento a frente do novo vai receber NULL
 		return novo;
 	}
     else{ // caso a fila nao esteja vazio
 
         No *aux;
         novo->inicio = fila; // novo inicio vai receber o inicio da fila
-	    novo->fim = novo; // novo fim vai receber o novo elemento
+	novo->fim = novo; // novo fim vai receber o novo elemento
         novo->proximo = NULL; // elemento seguinte ao novo vai receber NULL
 
 	    for(aux = fila; aux->proximo != NULL; aux= aux->proximo); // vai pecorrer ate o ultimo elemento da fila e guardar em aux
