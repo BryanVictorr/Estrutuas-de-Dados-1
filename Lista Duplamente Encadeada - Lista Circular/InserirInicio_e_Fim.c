@@ -1,7 +1,5 @@
 No *inserirInicio(No *lista, char *nome, int idade, int cpf){
-
     
-
     No *novo = (No*) malloc(sizeof(No));
     
     strcpy(novo->nome, nome);
